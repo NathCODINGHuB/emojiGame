@@ -1,0 +1,19 @@
+/* Write your code here. */
+.MainBody {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom right, #9796f0, #fbc7d4);
+}
+.body {
+  flex-grow: 1;
+  align-self: center;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+.unorderList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}

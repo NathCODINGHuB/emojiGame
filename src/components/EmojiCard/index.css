@@ -1,0 +1,33 @@
+.listItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 25%;
+  padding-bottom: 25%;
+  padding-left: 10%;
+  padding-right: 10%;
+  border-radius: 9px;
+  background-color: #ffffff33;
+  opacity: 0.8;
+  border: 2px solid #ffffff30;
+  width: 150px;
+}
+.listEmoji {
+  width: 70%;
+  height: 70%;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.bn {
+  background-color: transparent;
+  border: none;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  outline: none;
+  cursor: pointer;
+}
